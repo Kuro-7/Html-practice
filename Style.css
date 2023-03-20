@@ -1,0 +1,165 @@
+*{padding: 0; margin: 0;}
+
+body {background-color: white;}
+
+.Top {background-color: #0066CC; 
+      width: 100%; 
+      height: 100%;}
+      
+      .Top > p {
+            color: #FFF;
+            text-align: left; 
+            font-size: 12px;
+            margin-left: 50px;
+      }
+
+.Top2{color:white; 
+      background-color: #0099CC; 
+      width: 100%; 
+      height: 100%;
+      display: flex; 
+      justify-content: space-around;}
+
+      .Nav{display: flex;}
+
+            .Nav > h2 {padding-left: 10px;
+                  font-size: 20px;
+            }
+
+.Main {
+      background-image: url("media_files/template/assets/images/slider/home-slider-1.jpg");
+      height: 568px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.MainMsg {
+      text-align: center;
+      color: #FFF;
+}
+
+      .MainMsg > button {
+            margin-top: 30px;
+            padding: 10px;
+            color: #408ac7;
+            border: 1px solid black;
+      }
+.Blocks {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+}
+      .Box {
+            background-color: #1270Bf;
+            color: #FFF;
+            text-align: center;
+            width: 263px;
+            height: 325px;
+      }
+
+      .Box > img {
+            position: relative;
+            margin-top: 20px;
+      }
+
+      .Box > h2 {
+            margin-top: 5px;
+      }
+
+      .Box > p {
+            font-size: 14px;
+            padding: 30px;
+            text-align: left;
+      }
+      .Box > button {
+            background-color: #115C9B;
+            color: #FFF;
+            border: none;
+            padding: 10px;
+      }
+.Banner {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+}
+      .Banner > div {
+            position: relative;
+            width: 555px;
+            height: 570px;
+      }
+      .Rose {
+            background-image: url("media_files/template/assets/images/home/rose.jpg");
+      }
+      .Camp {
+            background-image: url("media_files/template/assets/images/home/camp.jpg");
+      }
+            .BannerText {
+                  background-color: rgba(0, 153, 204, 0.7);
+                  color: #FFF;
+                  position: absolute;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  bottom: 0;
+                  width: 100%;
+                  height: 125px;
+            }
+
+.DonationMain {
+      text-align: center;
+      color: #115C9B;
+      border-bottom: 1px solid #1f768d;
+      margin: auto;
+      position: relative;
+      width: 100px;
+}
+      .DonationMain::after {
+            position: absolute;
+            content: "";
+            border-bottom: 1px solid #1f768d;           
+            bottom: 0;
+            left: 0;
+            transform: translateX(-90px);
+            width: 280px;
+      }
+
+.Donation { 
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+}
+
+      .DonationInfo {
+            text-align: center;
+            border: 1px solid #115CCC;;
+            width: 261px;
+            height: 464px;
+      }
+            .DonationInfo > img {
+                  width: 100%;
+                  height: 198px;
+            }
+            .DonationInfo > h2 {
+                  color: #115C9B;
+                  font-size: 20px;
+            }
+            .DonationInfo > p {
+                  text-align: left;
+                  color: #115C9B;
+                  margin-top: 5px;
+                  padding: 3%;
+                  font-size: 16px;
+            }
+            .DonationInfo > button {
+                  background-color: #115C9B;
+                  color: #FFF;
+                  border: none;
+                  padding: 10px;
+            }
