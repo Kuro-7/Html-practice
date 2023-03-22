@@ -117,6 +117,7 @@ body {background-color: white;}
       color: #115C9B;
       border-bottom: 1px solid #1f768d;
       margin: auto;
+      margin-top: 20px;
       position: relative;
       width: 100px;
 }
@@ -163,3 +164,124 @@ body {background-color: white;}
                   border: none;
                   padding: 10px;
             }
+
+.SponsorInfo {
+      text-align: center;
+      color: #115C9B;
+      margin: auto;
+      position: relative;
+      margin-top: 20px;
+      width: 200px;
+}
+      .SponsorInfo::before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            border-bottom: 1px solid #1f768d;
+            transform: translateX(40px);
+            width: 100px;
+      }
+      .SponsorInfo::after {
+            position: absolute;
+            content: "";
+            border-bottom: 1px solid #1f768d;           
+            bottom: 1px;
+            left: 0;
+            transform: translateX(-40px);
+            width: 280px;
+      }
+
+.Sponsor {
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 80px;
+      padding-right: 80px;
+      margin-top: 30px;
+}
+
+.BottomInfo {
+      background-color: #1f76bd;
+      padding: auto;
+      border-top: 40px solid #115C9B;
+      height: 312px;
+}
+      .BottomBox {
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            color: #FFF;
+            width: 1140px;
+            height: 292px;
+            margin-top: 20px;
+      }
+
+            .BottomBox > div {
+                  width: calc(100%/3 - 20px);
+            }
+
+                  .Line {
+                        border-bottom: 1px solid #FFF;
+                        position: relative;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                        width: 100px;
+                  }
+
+                        .Line::after {
+                              position: absolute;
+                              content: "";
+                              border-bottom: 1px solid #FFF;           
+                              bottom: 0;
+                              left: 0;
+                              width: 280px;
+                        }
+
+                  .BottomLeft > p {
+                        font-size: 14px;
+                        margin-bottom: 8px;
+                  }
+          
+                  .BottomMid > p {
+                        font-size: 14px;
+                        margin-bottom: 8px;
+                  }
+
+                        .MidGap {
+                              position: relative;
+                              padding-bottom: 10px;
+                              margin-bottom: 10px;
+                        }
+                              .MidGap::after {
+                                    position: absolute;
+                                    content: ""; 
+                                    border-bottom: 1px solid #115C9B;      
+                                    bottom: 0;
+                                    left: 0;
+                                    transform: translateX(130px);
+                                    width: 100px;
+                              }
+
+                  .BottomRight > button {
+                        float: right;
+                        background-color: #115C9B;
+                        color: #FFF;
+                        border: 1px solid #FFF;
+                        width: 66px;
+                        height: 32px;
+                  }
+                        .BottomInput {
+                              display: flex;
+                              flex-direction: column;
+                        }
+                              .BottomInput > Input {
+                                    border: 1px solid #FFF;
+                                    color: #FFF;
+                                    background-color: #115C9B;
+                                    padding: 10px;
+                                    margin-bottom: 5px;
+                              }
+                              .BottomInput > Input::placeholder{
+                                    color: #FFF;
+                              }
+
+                        
